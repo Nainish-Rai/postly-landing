@@ -72,8 +72,8 @@ const TestimonialSection = () => {
   );
 
   return (
-    <section className="py-32 w-full overflow-hidden">
-      <div className="container flex flex-col items-center gap-4">
+    <section className="py-32 w-full mx-auto overflow-hidden">
+      <div className="w-full mx-auto flex flex-col items-center gap-4">
         <div className="flex items-center justify-center gap-1 text-sm font-semibold">
           <Zap className="h-6 w-auto fill-primary" />
           Rated 5 stars by 1000+ Postly users
@@ -87,7 +87,7 @@ const TestimonialSection = () => {
           Postly.
         </p>
       </div>
-      <div className="lg:container">
+      <div className="lg:w-full mx-auto ">
         <div className="mt-16 space-y-4">
           <Carousel
             opts={{
